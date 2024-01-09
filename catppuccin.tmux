@@ -291,6 +291,7 @@ main() {
   setw window-status-activity-style "fg=${thm_fg},bg=default,none"
   setw window-status-separator ""
   setw window-status-style "fg=${thm_fg},bg=default,none"
+  setw window-status-current-style fg=default,bg=default
 
   # --------=== Statusline
 
