@@ -278,6 +278,7 @@ main() {
   set status-justify "left"
   set status-left-length "100"
   set status-right-length "100"
+  set status-left-style fg=default,bg=default
 
   # messages
   set message-style "fg=${thm_cyan},bg=default,align=centre"
