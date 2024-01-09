@@ -278,6 +278,7 @@ main() {
   set status-justify "left"
   set status-left-length "100"
   set status-right-length "100"
+  set status-left-style fg=default,bg=default
 
   # messages
   set message-style "fg=${thm_cyan},bg=default,align=centre"
@@ -291,6 +292,7 @@ main() {
   setw window-status-activity-style "fg=${thm_fg},bg=default,none"
   setw window-status-separator ""
   setw window-status-style "fg=${thm_fg},bg=default,none"
+  setw window-status-current-style fg=default,bg=default
 
   # --------=== Statusline
 
